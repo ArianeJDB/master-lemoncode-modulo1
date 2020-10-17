@@ -1,0 +1,27 @@
+@import "_mixins.scss";
+
+body {
+  display: flex;
+}
+div {
+  width: 90px;
+  height: 150px;
+  margin-right: 15px;
+  @include centerTextInBox;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 10px;
+}
+.base {
+    background-color: gray;
+}
+
+.important {
+    background-color: rgb(170, 73, 73);
+}
+
+.warning {
+    background-color: rgb(224, 241, 64);
+}
